@@ -1,7 +1,7 @@
 version: "3.2"
 services:
   jupyter:
-    container_name: "jupyter"
+    container_name: "ml"
     build:
       context: "./Dockerfiles"
       dockerfile: "Dockerfile-jupyter"
